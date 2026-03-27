@@ -1,0 +1,58 @@
+body {
+    color: #1C304A;
+    text-align: center;
+    font-family: 'Lexend', 'Open Sans', sans-serif;
+    font-weight: normal;
+    background-color: #F8F8F8;
+}
+
+.prog-container {
+    width: 460px;
+    margin: 2.375rem auto; /* 38px */
+    font-size: 1.5rem; /* 24px */
+}
+
+.prog-bar {
+    height: 1.25rem; /* 20 px */
+    overflow: hidden;
+    border-radius: 0.75rem; /* 12px */
+    background-color: #69456F;
+}
+
+.prog-indicator {
+    height: 100%;
+    background-color: #9BE59E;
+}
+
+/* ----------------------------------------------------
+   Challenge:
+   Set the width of each progress bar using a percentage
+*/
+
+.prog-33 {
+    width: 33%;
+}
+
+.prog-60 {
+    width: 60%;
+}
+
+.prog-90 {
+    width: 90%;
+}
+
+/* -------------------------------------------------- */
+
+h1 {
+    font-size: 4.5rem; /* 72 px */
+    margin: 2.5rem 0 4.5rem; /* 40px top, 0 left/right, 56px bottom */
+}
+
+.prog-info {
+    display: flex;
+    margin-bottom: 0.625rem; /* 10px */
+}
+.status {
+    font-weight: 600;
+    margin-left: auto;
+}
