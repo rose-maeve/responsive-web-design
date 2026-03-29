@@ -4,6 +4,18 @@ body {
     font-weight: 300;
 }
 
+#skip a {
+    display: block;
+    position: absolute;
+    left: -999px;
+    top: -999px;
+}
+
+#skip a:focus {
+    left: 0;
+    top: 0;
+}
+
 .card {
     width: 70%;
     max-width: 355px;
@@ -33,7 +45,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 0.0625rem #00A1D1; /* 1 / 16 */
+    border-bottom: solid 0.0625rem #B2E2F1; /* 1 / 16 */
     padding-bottom: 1.75em;
     margin-bottom: 1.75em;
 }
@@ -58,7 +70,7 @@ ul li {
 }
 
 a {
-    color: #00A1D1;
+    color: #B2E2F1;
 }
 
 a:hover,
