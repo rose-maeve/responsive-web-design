@@ -65,3 +65,7 @@ a:hover,
 a:active {
     color: #9BE59E;
 }
+
+.photo-credits {
+    margin-top: 3rem; /* 48 / 16 */
+}
