@@ -1,0 +1,67 @@
+body {
+    color: #F8F8F8;
+    font-family: 'Lexend', 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.card {
+    width: 70%;
+    max-width: 355px;
+    padding: 1.875em;
+    background: #1C304A;
+    border-radius: 0.3125rem; /* 5 / 16 */
+    margin: 1.25rem auto; /* 20 / 16 */
+}
+
+.name {
+    font-size: 3em; /* 48 / 16 */
+    color: #F8F8F8;
+    margin: 0 0 0.15em;
+}
+
+.title {
+    font-size: 1.25em; /* 20px */
+    margin: 0;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 2em; /* 32 / 16 */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 0.0625rem #00A1D1; /* 1 / 16 */
+    padding-bottom: 1.75em;
+    margin-bottom: 1.75em;
+}
+
+.cooler-younger-dev {
+    width: 80px;
+    border-radius: 50%;
+    border: solid 0.125rem white; /* 2 / 16 */
+    margin-right: 1.5625rem; /* 25 / 16 */
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 1.25em;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+ul li {
+    margin-bottom: 0.35em;
+}
+
+a {
+    color: #00A1D1;
+}
+
+a:hover,
+a:active {
+    color: #9BE59E;
+}
