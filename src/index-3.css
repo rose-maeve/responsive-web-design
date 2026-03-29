@@ -3,11 +3,8 @@ body {
     font-family: 'Lexend', 'Open Sans', sans-serif;
     margin: 0;
     font-weight: 300;
-    font-size: 20px;
     background-color: #F8F8F8;
 }
-
-/* ----- TYPOGRAPHY ----- */
 
 h1,
 h3 {
@@ -16,26 +13,27 @@ h3 {
 
 h1 {
     color: #F8F8F8;
-    font-size: 48px;
+    font-size: 3rem; /* 48 / 16 */
 }
 
 h2 {
     color: #1C304A;
-    font-size: 32px;
+    font-size: 2rem; /* 32 / 16 */
     margin-top: 0;
 }
 
 h3 {
-    font-size: 26px;
+    font-size: 1.625rem; /* 26 / 16 */
 }
 
 p {
+    font-size: 1.25rem; /* 20 / 16 */
     line-height: 1.5;
 }
 
 .subheading {
     display: block;
-    font-size: 24px;
+    font-size: 1.5rem; /* 24 / 16 */
 }
 
 .section-bottom h2 {
@@ -58,17 +56,18 @@ p {
 }
 
 .button {
-    font-size: 24px;
+    font-size: 1.5rem; /* 24 / 16 */
     font-weight: 500;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
-    border-radius: 4.6px;
+    padding: 0.625rem 1.25rem; /* 10/16 and 20/16 */
+    border-radius: 0.2875rem; /* 4.6 / 16 */
 }
 
 .button-purple {
     color: #F8F8F8;
     background: #69456F;
+    margin-right: 0.625rem; /* 10 / 16 */
 }
 
 .button-blue {
@@ -88,12 +87,10 @@ p {
     background-color: #69456F;
 }
 
-/* ----- LAYOUT ----- */
-
 header,
 section,
 footer {
-    padding: 46px 0;
+    padding: 2.875rem 0; /* 46 / 16 = 2.875rem */
 }
 
 header,
@@ -114,12 +111,12 @@ header,
 .at-image {
     width: 100%;
     max-width: 640px;
-    margin: 0px auto; /* centers the image horizontally, needs display: block; to work */
+    margin: 0 auto; /* centers the image horizontally, needs display: block; to work */
     display: block; /* key to centering the image, otherwise default is inline */
 }
 
 .photo-credits {
-    margin-bottom: 32px;
+    margin-bottom: 2rem; /* 32 / 16 = 2rem */
 }
 
 .section-bottom-image-container {
@@ -134,7 +131,7 @@ header,
 
 .accessibility-image {
     width: 100%;
-    border-radius: 4.6px;
+    border-radius: 0.2875rem; /* 4.6 / 16 */
 }
 
 footer {
