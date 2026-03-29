@@ -67,7 +67,7 @@ p {
 .button-purple {
     color: #F8F8F8;
     background: #69456F;
-    margin-right: 0.625rem; /* 10 / 16 */
+    margin: 0 0.625rem 0.625rem 0; /* right and bottom margins, 10/16 */
 }
 
 .button-blue {
