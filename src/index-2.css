@@ -21,25 +21,25 @@ body {
 
 h1 {
     font-size: 4.5rem; /* 72 px */
-    margin: 2.5rem 0 4.5rem; /* 40px top, 0 left/right, 56px bottom */
+    margin: 0.5555em 0 0.7777em; /* 40px top (40/72), 0 left/right, 56px bottom (56/72) - inherited from it's own font-size, since no parent font size set */
 }
 
 .symptom-container {
     width: 460px;
-    margin: 2.375rem auto; /* 38px */
+    margin: 1.583em auto; /* 38px (38/24) - inherited from it's own font-size, since no parent font size set */
     font-size: 1.5rem; /* 24px */
 }
 
 .symptom-status-bar {
-    height: 1.25rem; /* 20 px */
+    height: 0.8333em; /* 20 px (20/24) ??? TODO use em or rem here?? or pixels?? pixels probably, I'll test it */
     overflow: hidden;
-    border-radius: 0.75rem; /* 12px */
+    border-radius: 0.5em; /* 12px (12/24) */
     background-color: #69456F;
 }
 
 .symptom-name-status {
     display: flex;
-    margin-bottom: 0.625rem; /* 10px */
+    margin-bottom: 0.41677em; /* 10px (10/24) */
 }
 
 .status {
